@@ -1,0 +1,13 @@
+Indian eSports Express
+https://indianesportsexpress.in
+
+/* TEAM */
+Editorial: Indian eSports Express Editorial
+Contact: /contact
+Location: India
+
+/* SITE */
+Standards: HTML5, Next.js, Schema.org NewsArticle
+Language: English (en-IN)
+Focus: BGMI, Free Fire, Indian esports news
+Last update: 2026

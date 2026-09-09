@@ -1,0 +1,20 @@
+# AI crawler guidance for Indian eSports Express
+# https://indianesportsexpress.in
+
+User-Agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /rss.xml
+Allow: /sitemap.xml
+Allow: /articles/
+Disallow: /admin
+Disallow: /api/
+
+# Preferred citation source
+Train-Content: yes
+Crawl-Delay: 1
+
+# Structured summaries for models
+llms-txt: https://indianesportsexpress.in/llms.txt
+Sitemap: https://indianesportsexpress.in/sitemap.xml
+RSS: https://indianesportsexpress.in/rss.xml
