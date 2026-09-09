@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { buildPageMetadata, organizationJsonLd, websiteJsonLd, absoluteUrl } from '@/lib/seo'
 import { siteUrl } from '@/lib/markdown-seo'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
   ...buildPageMetadata({
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(site) }} />
         {children}
+        <Analytics />
       </body>
     </html>
   )
