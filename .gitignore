@@ -14,3 +14,8 @@ node_modules
 .next/
 .DS_Store
 public/uploads/
+
+# Use npm only (do not reintroduce pnpm)
+pnpm-lock.yaml
+pnpm-workspace.yaml
+.pnpm-store/
